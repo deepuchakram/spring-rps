@@ -1,7 +1,5 @@
-package com.mcnz.rps.spring;
+package com.mcnz.ioc.example;
 
 public class Score {
-	
 	int wins;
-	
 }  
