@@ -6,4 +6,4 @@ public class Score {
 	
 	public void increaseWins()   { wins++; }
 
-}
+} 
