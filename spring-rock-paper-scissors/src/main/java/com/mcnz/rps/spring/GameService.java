@@ -14,10 +14,11 @@ public class GameService {
 	}
 	
 	public static void main(String args[]) {
-		GameService gameService = new GameService();
-		gameService.playRoshambo("scissors");
-		gameService.playRoshambo("scissors");
-		gameService.playRoshambo("scissors");
+//		GameService gameService = new GameService();
+//		gameService.playRoshambo("scissors");
+//		gameService.playRoshambo("scissors");
+//		gameService.playRoshambo("scissors");
+		System.out.println("Hello World");
 	}
 }
 
