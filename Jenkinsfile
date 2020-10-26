@@ -12,7 +12,7 @@ node {
 		mvnBin+='/bin'
 		}
 	else { 
-		tomcatWeb = '/opt/apache-tomcat-8.5.35/webapps
+		tomcatWeb = '/opt/apache-tomcat-8.5.35/webapps'
 '	
 		mvnBin+='\\bin'
 		}
