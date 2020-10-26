@@ -13,7 +13,7 @@ node {
 		}
 	else { 
 		tomcatWeb = '/opt/apache-tomcat-8.5.35/webapps'
-'	
+	
 		mvnBin+='\\bin'
 		}
 	stage('jpa') { 
