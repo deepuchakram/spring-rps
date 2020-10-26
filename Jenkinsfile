@@ -16,12 +16,10 @@ pipeline {
                     } 
            stage('Build Analysis') { 
                steps { 
-                   withSonarQubeEnv('sonar')   
-                          { 
                         shell "mvn sonar:sonar" 
-                             } 
+                     } 
                     } 
-                } 
+                
           /* stage("Quality Gate") { 
                steps { 
                   timeout(time: 50, unit: 'MINUTES') { 
